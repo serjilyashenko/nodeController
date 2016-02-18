@@ -25,25 +25,34 @@ server.on("message", function(message, remote){
 		targetSubnet 	:message[23],
 		targetId 		:message[24],
 		dataCRC 		:message.slice(24).toString('hex'),
-		data 			:message.slice(24, (message.length - 2)).toString('hex'),
+		data 			:message.slice(24, (message.length - 2)),
 		CRC 			:message.slice((message.length - 2), message.length).toString('hex')
 	};
+
+	switch (hdlTelegram.command){
+		case 0x0031 :
+			console.log("       Command: " + hdlTelegram.command.toString(16) + " -> " + hdlCommandCode[hdlTelegram.command] );
+			console.log("     Target id: " + hdlTelegram.targetId 		);
+			console.log("    Channel No: " + hdlTelegram.data[0].toString(16));
+			console.log();
+			break;
+	}
 
 	// console.log(message[0] + "." + message[1] + "." + message[2] + "." + message[3]);	// IP sender
 	// console.log(message.slice(4,14).toString());										// magic header
 	// console.log(message.slice(14));													// hdl protocol
 	// console.log("   Leader Code: " + hdlTelegram.leaderCode		);
 	// console.log("     Data size: " + hdlTelegram.dataSize 		);
-	console.log(" Sender subnet: " + hdlTelegram.senderSubnet 	);
-	console.log("     Sender id: " + hdlTelegram.senderId 		);
+	// console.log(" Sender subnet: " + hdlTelegram.senderSubnet 	);
+	// console.log("     Sender id: " + hdlTelegram.senderId 		);
 	// console.log("   Device type: " + hdlTelegram.deviceType 	);
-	console.log("       Command: " + hdlTelegram.command + " -> " + hdlCommandCode[hdlTelegram.command] );
-	console.log(" Target subnet: " + hdlTelegram.targetSubnet 	);
-	console.log("     Target id: " + hdlTelegram.targetId 		);
+	// console.log("       Command: " + hdlTelegram.command.toString(16) + " -> " + hdlCommandCode[hdlTelegram.command] );
+	// console.log(" Target subnet: " + hdlTelegram.targetSubnet 	);
+	// console.log("     Target id: " + hdlTelegram.targetId 		);
 	// console.log("    Data + CRC: " + hdlTelegram.dataCRC 		);
-	// console.log("          Data: " + hdlTelegram.data 			);
+	// console.log("          Data: " + hdlTelegram.data.toString('hex'));
 	// console.log("           CRC: " + hdlTelegram.CRC 			);
-	console.log();
+	// console.log();
 });
 
 server.bind(port);
