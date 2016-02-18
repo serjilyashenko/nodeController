@@ -1,0 +1,16 @@
+{
+  "name": "nodecontroller",
+  "version": "1.0.0",
+  "description": "net controller for smart house",
+  "main": "udpServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://skyIlyashenko@bitbucket.org/skyIlyashenko/01_nodecontroller.git"
+  },
+  "author": "skyIlyashenko",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/skyIlyashenko/01_nodecontroller#readme"
+}
