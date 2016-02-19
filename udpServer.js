@@ -11,6 +11,8 @@ server.on("listening", function(){
 
 console.log("!> udp server created! All OK:)");
 
+var lightTelegramCounter = 0;
+
 server.on("message", function(message, remote){
 	// console.log(remote.address + ":" + remote.port + " - " + message);
 	// console.log(message.toString("hex"));
@@ -25,16 +27,27 @@ server.on("message", function(message, remote){
 		targetSubnet 	:message[23],
 		targetId 		:message[24],
 		dataCRC 		:message.slice(24).toString('hex'),
-		data 			:message.slice(24, (message.length - 2)),
+		data 			:message.slice(25, (message.length - 2)),
 		CRC 			:message.slice((message.length - 2), message.length).toString('hex')
 	};
 
 	switch (hdlTelegram.command){
 		case 0x0031 :
-			console.log("       Command: " + hdlTelegram.command.toString(16) + " -> " + hdlCommandCode[hdlTelegram.command] );
-			console.log("     Target id: " + hdlTelegram.targetId 		);
-			console.log("    Channel No: " + hdlTelegram.data[0].toString(16));
-			console.log();
+		case 0x0032 :
+			if(true){
+				console.log("       Command: " + hdlTelegram.command.toString(16) + " -> " + hdlCommandCode[hdlTelegram.command] );
+				// console.log(" Sender subnet: " + hdlTelegram.senderSubnet 	);
+				console.log(message.slice(14));
+				console.log("     Sender id: " + hdlTelegram.senderId 		);
+				console.log("     Target id: " + hdlTelegram.targetId 		);
+				console.log("          Data: " + hdlTelegram.data.toString('hex'));
+				// console .log("   data length: " + hdlTelegram.data.length);
+				console.log("    Channel No: " + hdlTelegram.data[0]);
+				console.log(" Channel Level: " + hdlTelegram.data[1]);
+				lightTelegramCounter++;
+				console.log("count = " + lightTelegramCounter);
+				console.log();
+			}
 			break;
 	}
 
