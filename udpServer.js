@@ -35,6 +35,7 @@ server.on("message", function(message, remote){
 		case 0x0031 :
 		case 0x0032 :
 			if(true){
+				console.log(message);
 				console.log("       Command: " + hdlTelegram.command.toString(16) + " -> " + hdlCommandCode[hdlTelegram.command] );
 				// console.log(" Sender subnet: " + hdlTelegram.senderSubnet 	);
 				console.log(message.slice(14));

@@ -12,5 +12,8 @@
   },
   "author": "skyIlyashenko",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/skyIlyashenko/01_nodecontroller#readme"
+  "homepage": "https://bitbucket.org/skyIlyashenko/01_nodecontroller#readme",
+  "devDependencies": {
+    "js-crc": "^0.1.0"
+  }
 }
