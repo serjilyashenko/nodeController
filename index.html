@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+		button {
+			height: 100%;
+			width: 45%;
+			font-size: 30px;
+			margin: 5px;
+		}
+		.channel1 > div {
+			height: 200px;
+		}
+		body {
+			height: 700px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="channel1">
+		<h2>Магазин: Витрина</h2>
+		<div>
+			<button onclick="activate1()" id="OnButton">Включить!</button>
+			<button onclick="activate2()" id="OffButton">Выключить!</button>
+		</div>
+	</div>
+
+	<script>
+		function activate1() {
+			var onButton = document.getElementById('OnButton');
+			var OffButton = document.getElementById('OffButton');
+
+			var xhr = new XMLHttpRequest();
+
+			xhr.open('GET', 'on', true);
+
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState != 4) return;
+
+				if (xhr.status != 200) {
+					// обработать ошибку
+					alert('Ошибка ' + xhr.status + ': ' + xhr.statusText);
+					return;
+				}
+
+				// обработать результат
+				// button.innerHTML = xhr.responseText;
+			}
+
+			xhr.send();
+
+		}
+		function activate2() {
+			var onButton = document.getElementById('OnButton');
+			var OffButton = document.getElementById('OffButton');
+
+			var xhr = new XMLHttpRequest();
+
+			xhr.open('GET', 'off', true);
+
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState != 4) return;
+
+				if (xhr.status != 200) {
+					// обработать ошибку
+					alert('Ошибка ' + xhr.status + ': ' + xhr.statusText);
+					return;
+				}
+
+				// обработать результат
+				// button.innerHTML = xhr.responseText;
+			}
+
+			xhr.send();
+
+		}
+	</script>
+
+</body>
+
+</html>
