@@ -14,6 +14,13 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/skyIlyashenko/01_nodecontroller#readme",
   "devDependencies": {
+    "crc": "^3.4.0",
+    "crc-hash": "^0.2.2",
+    "js-crc": "^0.1.0"
+  },
+  "dependencies": {
+    "crc": "^3.4.0",
+    "crc-hash": "^0.2.2",
     "js-crc": "^0.1.0"
   }
 }
