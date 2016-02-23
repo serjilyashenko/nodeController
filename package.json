@@ -2,7 +2,7 @@
   "name": "nodecontroller",
   "version": "1.0.0",
   "description": "net controller for smart house",
-  "main": "udpServer.js",
+  "main": "udpClient.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
