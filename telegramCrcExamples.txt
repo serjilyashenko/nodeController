@@ -1,8 +1,0 @@
-<Buffer aa aa 0f 01 0c 01 42 00 31 01 3a 0b 00 00 03 07 65>
-<Buffer aa aa 0e 01 37 02 57 00 32 ff ff 03 f8 00 c5 5d>
-<Buffer aa aa 0e 01 37 02 57 00 32 ff ff 03 f8 64 e9 7f>
-<Buffer aa aa 0e 01 37 02 57 00 32 ff ff 03 f8 00 c5 5d>
-<Buffer aa aa 0e 01 37 02 57 00 32 ff ff 03 f8 64 e9 7f>
-
-<Buffer c0 a8 00 4d 48 44 4c 4d 49 52 41 43 4c 45 aa aa 0e 01 3a 02 57 00 32 ff ff 04 f8 64 e4 d4>
-
