@@ -13,7 +13,7 @@ function accept(req, res) {
 			res.end('Ваш голос принят: ' + new Date());
 			hdl(55,3,100);
 	} else if (req.url == '/off'){
-			resgit.end('Ваш голос принят: ' + new Date());
+			res.end('Ваш голос принят: ' + new Date());
 			hdl(55,3,0);
 	} else {
 		// иначе считаем это запросом к обычному файлу и выводим его
