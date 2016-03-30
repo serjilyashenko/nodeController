@@ -3,6 +3,7 @@ var host = "192.168.0.77";
 
 var dgram = require('dgram');
 var server = dgram.createSocket('udp4');
+var mar = require("./marantzControl.js");
 
 server.on("listening", function(){
 	var address = server.address();
@@ -34,7 +35,7 @@ server.on("message", function(message, remote){
 	switch (hdlTelegram.command){
 		case 0x0031 :
 		case 0x0032 :
-			if(true){
+			if(hdlTelegram.targetSubnet == 33){
 				console.log(message);
 				console.log("       Command: " + hdlTelegram.command.toString(16) + " -> " + hdlCommandCode[hdlTelegram.command] );
 				// console.log(" Sender subnet: " + hdlTelegram.senderSubnet 	);
@@ -48,6 +49,8 @@ server.on("message", function(message, remote){
 				lightTelegramCounter++;
 				console.log("count = " + lightTelegramCounter);
 				console.log();
+				if (hdlTelegram.data[1] == 100)	mar("on");
+				else mar("off");
 			}
 			break;
 	}
