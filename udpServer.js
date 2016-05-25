@@ -1,6 +1,9 @@
 var port = 6000;
 var host = "192.168.0.77";
 
+var port = 6000;
+var host = "192.168.0.77";
+
 var dgram = require('dgram');
 var server = dgram.createSocket('udp4');
 var crc16 = require('crc').crc16xmodem;
@@ -15,7 +18,7 @@ console.log("!> udp server created! All OK:)");
 var lightTelegramCounter = 0;
 
 server.on("message", function(message, remote){
-	console.log(remote.address + ":" + remote.port + " - " + message);
+	// console.log(remote.address + ":" + remote.port + " - " + message);
 	// console.log(message.toString("hex"));
 
 	var hdlTelegram = {
@@ -35,14 +38,21 @@ server.on("message", function(message, remote){
 	switch (hdlTelegram.command){
 		case 0x0031 :
 		case 0x0032 :
+			break;
+		case 0x000f:
 			if(true){
-				console.log(message);
+				// console.log(message);
 				console.log("       Command: " + hdlTelegram.command.toString(16) + " -> " + hdlCommandCode[hdlTelegram.command] );
 				// console.log(" Sender subnet: " + hdlTelegram.senderSubnet 	);
-				console.log(message.slice(14));
+				// console.log(message.slice(14));
+				console.log(" Sender subnet: " + hdlTelegram.senderSubnet	);
 				console.log("     Sender id: " + hdlTelegram.senderId 		);
-				console.log("     Target id: " + hdlTelegram.targetId 		);
-				console.log("          Data: " + hdlTelegram.data.toString('hex'));
+				console.log("    deviceType: ");
+				// console.log("     Target id: " + hdlTelegram.targetId 		);
+				
+				// console.log("          Data: " + hdlTelegram.data.toString('hex'));
+				console.log("          Name: " + hdlTelegram.data);
+				
 				// console .log("   data length: " + hdlTelegram.data.length);
 				console.log("    Channel No: " + hdlTelegram.data[0]);
 				console.log(" Channel Level: " + hdlTelegram.data[1]);
@@ -75,12 +85,10 @@ server.bind(port);
 // var message = new Buffer("Hello UDP Server :)");
 
 // Creating hdl telegram
-var senderIp = new Buffer([192,168,0,15]);	//перевести localhost
+var senderIp = new Buffer([192,168,0,211]);	//перевести localhost
 var hdlMiracle = new Buffer("HDLMIRACLE");
 
 // Отправка телеграммы
-var port = 6000;
-var host = "192.168.0.88";
 
 var client = dgram.createSocket('udp4');	// Открываем сокет
 
@@ -241,5 +249,6 @@ var hdlCommandCode = {
 	0xD904 : "19.4.1 Read Power Factor",
 	0xD905 : "19.4.2 Response Read Power Factor",
 	0xD91A : "19.5.1 Read Electricity",
-	0xD91B : "19.5.2 Response Read Electricity"
+	0xD91B : "19.5.2 Response Read Electricity",
+	0x000F : "Response on search request"
 }
