@@ -14,7 +14,7 @@ console.log("!> udp server created! All OK:)");
 var lightTelegramCounter = 0;
 
 server.on("message", function(message, remote){
-	// console.log(remote.address + ":" + remote.port + " - " + message);
+	console.log(remote.address + ":" + remote.port + " - " + message);
 	// console.log(message.toString("hex"));
 
 	var hdlTelegram = {
