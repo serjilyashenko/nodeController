@@ -7,6 +7,8 @@ var host = "192.168.0.77";
 var dgram = require('dgram');
 var server = dgram.createSocket('udp4');
 var crc16 = require('crc').crc16xmodem;
+// var iconv = require('iconv').Iconv;
+// var translator = new iconv("cp1251", 'utf-8');
 
 server.on("listening", function(){
 	var address = server.address();
@@ -41,21 +43,23 @@ server.on("message", function(message, remote){
 			break;
 		case 0x000f:
 			if(true){
+				console.log(message);
 				// console.log(message);
 				console.log("       Command: " + hdlTelegram.command.toString(16) + " -> " + hdlCommandCode[hdlTelegram.command] );
 				// console.log(" Sender subnet: " + hdlTelegram.senderSubnet 	);
 				// console.log(message.slice(14));
 				console.log(" Sender subnet: " + hdlTelegram.senderSubnet	);
 				console.log("     Sender id: " + hdlTelegram.senderId 		);
-				console.log("    deviceType: ");
+				console.log("    deviceType: " + hdlTelegram.deviceType		);
 				// console.log("     Target id: " + hdlTelegram.targetId 		);
 				
-				// console.log("          Data: " + hdlTelegram.data.toString('hex'));
-				console.log("          Name: " + hdlTelegram.data);
-				
+				console.log("          Data: " + hdlTelegram.data.toString('hex'));
+				//console.log("          Name: " + translator.convert(hdlTelegram.data).toString());
+				console.log("          char: " + hdlTelegram.data.toString().charCodeAt(0).toString(16));
+
 				// console .log("   data length: " + hdlTelegram.data.length);
-				console.log("    Channel No: " + hdlTelegram.data[0]);
-				console.log(" Channel Level: " + hdlTelegram.data[1]);
+				// console.log("    Channel No: " + hdlTelegram.data[0]);
+				// console.log(" Channel Level: " + hdlTelegram.data[1]);
 				lightTelegramCounter++;
 				console.log("count = " + lightTelegramCounter);
 				console.log();
