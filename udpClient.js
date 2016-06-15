@@ -4,16 +4,16 @@ var dgram = require('dgram');
 // var message = new Buffer("Hello UDP Server :)");
 
 // Creating hdl telegram
-var senderIp = new Buffer([192,168,0,102]);	//перевести localhost
+var senderIp = new Buffer([192,168,0,102]);	//РїРµСЂРµРІРµСЃС‚Рё localhost
 var hdlMiracle = new Buffer("HDLMIRACLE");
 
-// Отправка телеграммы
+// РћС‚РїСЂР°РІРєР° С‚РµР»РµРіСЂР°РјРјС‹
 var port = 6000;
 var host = "192.168.0.77";
 
 module.exports = function(targetId, channel, lightValue){
 
-	var client = dgram.createSocket('udp4');	// Открываем сокет
+	var client = dgram.createSocket('udp4');	// РћС‚РєСЂС‹РІР°РµРј СЃРѕРєРµС‚
 
 	// data over rs485
 	var leaderCode = [0xaa, 0xaa];
@@ -26,13 +26,13 @@ module.exports = function(targetId, channel, lightValue){
 	var tatgetId = targetId;
 	var data = [channel, lightValue, 0, 0];
 	
-	// Сборка hdl телеграммы
+	// РЎР±РѕСЂРєР° hdl С‚РµР»РµРіСЂР°РјРјС‹
 	sizeOfData += data.length;
 	var hdlTelegram = Array.prototype.concat(sizeOfData, senderSubnet, senderId, deviceType, command, targetSubnet,tatgetId,data);
 	var crc = ('0000' + crc16(hdlTelegram).toString(16)).slice(-4);
-	console.log(crc);
+	// console.log(crc);
 	var crc = new Buffer(crc,'hex');
-	console.log(crc);
+	// console.log(crc);
 
 	hdlTelegram = Array.prototype.concat(leaderCode, hdlTelegram);
 	hdlBuffer = new Buffer(hdlTelegram);
@@ -40,14 +40,14 @@ module.exports = function(targetId, channel, lightValue){
 	hdlBuffer = Buffer.concat([hdlBuffer, crc]);
 	// console.log(hdlBuffer);
 	
-	// Сборка hdl-ip телеграммы
+	// РЎР±РѕСЂРєР° hdl-ip С‚РµР»РµРіСЂР°РјРјС‹
 	var hdlIpMessage = Buffer.concat([senderIp, hdlMiracle, hdlBuffer])
-	console.log(hdlIpMessage);
+	// console.log(hdlIpMessage);
 
 	client.send(hdlIpMessage, 0 , hdlIpMessage.length, port, host, function(err, bytes){
 		if (err) throw err;
 		// console.log("UDP message sent to " + host + ":" + port);
-		console.log("massage send");
-		client.close();		// Закрываем сокет
+		// console.log("massage send");
+		client.close();		// Р—Р°РєСЂС‹РІР°РµРј СЃРѕРєРµС‚
 	} );
 }
