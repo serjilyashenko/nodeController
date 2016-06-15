@@ -144,6 +144,7 @@ function HdlProtocol() {
 };
 
 HdlProtocol.prototype.telegram = {
+	magicHeader: "HDLMIRACLE",
 	leaderCode: [0xaa, 0xaa],
 	sizeOfData: null,
 	senderSubnet: 0xfd,
