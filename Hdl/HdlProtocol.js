@@ -1,4 +1,4 @@
-// HdlProtocol singleton module
+// HdlProtocol module
 
 function HdlProtocol() {
 	this._commandCodes = {
@@ -141,6 +141,18 @@ function HdlProtocol() {
 		var code = this._commandCodes[command];
 		this._codesByCommands[code] = command;
 	}
+};
+
+HdlProtocol.prototype.telegram = {
+	leaderCode: [0xaa, 0xaa],
+	sizeOfData: null,
+	senderSubnet: 0xfd,
+	senderId: 0xfe,
+	deviceType: [0xff, 0xfe],
+	command: null,
+	targetSubnet: null,
+	tatgetId: null,
+	data: null
 };
 
 HdlProtocol.prototype.codeOfCommand = function (command) {
