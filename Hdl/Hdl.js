@@ -2,6 +2,7 @@ var protocol = require('./HdlProtocol.js');
 
 var Hdl = function () {};
 
+
 Hdl.prototype.singleChannelControl = function (targetSubnet, targetId, channel, value) {
     console.log('>> singleChannelControl method');
 };
