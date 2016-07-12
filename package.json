@@ -15,6 +15,7 @@
   "homepage": "https://bitbucket.org/skyIlyashenko/01_nodecontroller#readme",
   "devDependencies": {
     "crc": "^3.4.0",
+    "forever": "^0.15.1",
     "node-static": "^0.7.7"
   },
   "dependencies": {
