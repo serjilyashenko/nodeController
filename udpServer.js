@@ -1,8 +1,14 @@
 var port = 6000;
 var host = "192.168.0.77";
 
+var port = 6000;
+var host = "192.168.0.77";
+
 var dgram = require('dgram');
 var server = dgram.createSocket('udp4');
+var crc16 = require('crc').crc16xmodem;
+// var iconv = require('iconv').Iconv;
+// var translator = new iconv("cp1251", 'utf-8');
 
 server.on("listening", function(){
 	var address = server.address();
@@ -34,17 +40,26 @@ server.on("message", function(message, remote){
 	switch (hdlTelegram.command){
 		case 0x0031 :
 		case 0x0032 :
+			break;
+		case 0x000f:
 			if(true){
 				console.log(message);
+				// console.log(message);
 				console.log("       Command: " + hdlTelegram.command.toString(16) + " -> " + hdlCommandCode[hdlTelegram.command] );
 				// console.log(" Sender subnet: " + hdlTelegram.senderSubnet 	);
-				console.log(message.slice(14));
+				// console.log(message.slice(14));
+				console.log(" Sender subnet: " + hdlTelegram.senderSubnet	);
 				console.log("     Sender id: " + hdlTelegram.senderId 		);
-				console.log("     Target id: " + hdlTelegram.targetId 		);
+				console.log("    deviceType: " + hdlTelegram.deviceType		);
+				// console.log("     Target id: " + hdlTelegram.targetId 		);
+				
 				console.log("          Data: " + hdlTelegram.data.toString('hex'));
+				//console.log("          Name: " + translator.convert(hdlTelegram.data).toString());
+				console.log("          char: " + hdlTelegram.data.toString().charCodeAt(0).toString(16));
+
 				// console .log("   data length: " + hdlTelegram.data.length);
-				console.log("    Channel No: " + hdlTelegram.data[0]);
-				console.log(" Channel Level: " + hdlTelegram.data[1]);
+				// console.log("    Channel No: " + hdlTelegram.data[0]);
+				// console.log(" Channel Level: " + hdlTelegram.data[1]);
 				lightTelegramCounter++;
 				console.log("count = " + lightTelegramCounter);
 				console.log();
@@ -68,8 +83,57 @@ server.on("message", function(message, remote){
 	// console.log("           CRC: " + hdlTelegram.CRC 			);
 	// console.log();
 });
-
 server.bind(port);
+
+// SEARCH DEVICES
+// var message = new Buffer("Hello UDP Server :)");
+
+// Creating hdl telegram
+var senderIp = new Buffer([192,168,0,211]);	//перевести localhost
+var hdlMiracle = new Buffer("HDLMIRACLE");
+
+// Отправка телеграммы
+
+var client = dgram.createSocket('udp4');	// Открываем сокет
+
+// data over rs485
+var leaderCode = [0xaa, 0xaa];
+var sizeOfData = 0x0b;
+var senderSubnet = 0x0c;
+var senderId = 0xfe;
+var deviceType = [0xff, 0xfe];
+var command = [0x00, 0x0e];
+var targetSubnet = 0xff;
+var tatgetId = 0xff;
+var data = null;
+
+// Сборка hdl телеграммы для поиска устройств в сети hdl
+//sizeOfData += data.length;
+var hdlTelegram = Array.prototype.concat(sizeOfData, senderSubnet, senderId, deviceType, command, targetSubnet ,tatgetId);
+// if (data){
+// 	hdlTelegram = Array.prototype.concat(data);
+// };
+var crc = ('0000' + crc16(hdlTelegram).toString(16)).slice(-4);
+console.log(crc);
+var crc = new Buffer(crc,'hex');
+console.log(crc);
+
+hdlTelegram = Array.prototype.concat(leaderCode, hdlTelegram);
+hdlBuffer = new Buffer(hdlTelegram);
+
+hdlBuffer = Buffer.concat([hdlBuffer, crc]);
+// console.log(hdlBuffer);
+
+// Сборка hdl-ip телеграммы
+var hdlIpMessage = Buffer.concat([senderIp, hdlMiracle, hdlBuffer])
+console.log(hdlIpMessage);
+
+client.send(hdlIpMessage, 0 , hdlIpMessage.length, port, host, function(err, bytes){
+	if (err) throw err;
+	console.log("UDP message sent to " + host + ":" + port);
+	console.log("massage send");
+	client.close();		// Закрываем сокет
+} );
 
 var hdlCommandCode = {
 	0x0002 : "4.1.1 Scene Control",
@@ -189,5 +253,6 @@ var hdlCommandCode = {
 	0xD904 : "19.4.1 Read Power Factor",
 	0xD905 : "19.4.2 Response Read Power Factor",
 	0xD91A : "19.5.1 Read Electricity",
-	0xD91B : "19.5.2 Response Read Electricity"
+	0xD91B : "19.5.2 Response Read Electricity",
+	0x000F : "Response on search request"
 }

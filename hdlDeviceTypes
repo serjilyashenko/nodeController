@@ -1,0 +1,651 @@
+1	SB-DN-D0610	6 channels 10A dimmable scene controller
+2	SB-DN-D1210	12ch 10A Professional Intelligent Dimmer(with load status feedback)
+3	SB-DN-D2405	24ch 5A Professional Intelligent Dimmer(with load status feedback)
+4	SB-DN-D0620	6ch 20A Professional Intelligent Dimmer
+5	SB-DN-D1210	12ch 10A Professional Intelligent Dimmer
+6	SB-DN-D2405	24ch 5A Professional Intelligent Dimmer
+7	SB-WL-D1210	12ch 10A Professional Intelligent Dimmer(with load status feedback)
+8	SB-DN-D0620	6ch 20A Professional Intelligent Dimmerr(with load status feedback)
+9	SB-WL-D0610	6ch 10A Professional Intelligent Dimmer(with load status feedback)
+10	HDL-MDG512-DMX	512 channels show controller & DMX gateway (20131028波兰率先使用添加)
+11	SB-DN-R1220	12ch 20A Professional Intelligent relay
+12	SB-DN-R2420	24 channels 20A relay
+13	SB-DN-48BNET	48 channels scene controller bus (up to 8 unit 6 channels power modules in which is extendible,standard t-shaped tunnel installation  with Ethernet channels)
+14	SB-DN-48BNET	48 channels scene controller bus (up to 8 unit 6 channel power modules in which is extendible,standard t-shaped tunnel installation)
+15	SB-DN-D0602	6ch 2A Intelligent Dimming Module
+16	SB-DN-48DMX	48 channels scene controller bus (standard t-shaped tunnel installation  with Ethernet channels,with DMX)
+17	SB-DN-6B0-10v	6 channels,0-10V output,dimmable scene controller of fluorescent lamp
+18	SB-DN-48DMX	48 channels scene controller bus (standard t-shaped tunnel installation with DMX)
+19	SB-DN-R1210	12 channels 10A relay
+20	SB-DN-240DMX	240 channels show controller
+21	SB-DN-512DMX	512 channels show controller
+22	SB-DN-R1205	12 channels 5A relay
+23	SB-DN-R0810	8ch 10A Intelligent relay Module
+24	SB-DN-512DMX	512 channels show controller(20111226添加)
+25	SB-DN-D0403	4ch 3A Intelligent Dimming module
+26	SB-WL-D2405	24ch 5A Professional Intelligent Dimmer
+27	SB-WL-D0620	6ch 20A Professional Intelligent Dimmer
+28	SB-DN-D0304	3 channels 4A dimmable scene controller
+29	HDL-BN-VRV	Toshiba Bacnet Aircon Gateway
+30	SB-DN-48BNET	48 channels scene controller bus (up to 8 unit 6 channels power modules in which is extendible,standard t-shaped tunnel installation  with Ethernet channels)
+31	SB-DN-48BNET	48 channels scene controller bus (up to 8 unit 6 channels power modules in which is extendible,standard t-shaped tunnel installation  with Ethernet channels)
+32	SB-DN-48DMX	48 channels scene controller bus (standard t-shaped tunnel installation  with Ethernet channels,with DMX)
+33	SB-DN-SMS/IP	GPRS Module-Only apply to V2.3 and above
+34	SB-DN-48HNET	Hotel Room Control Host Module
+35	SB-DN-6B0-10v	4 channels,0-10V output,dimmable scene controller of fluorescent lamp
+36	HDL-DN-MRDA0610.432	6 channels,0-10V output,dimmable scene controller of fluorescent lamp
+37	SB-DN-2B0-10v	2 channels,0-10V output,dimmable scene controller of fluorescent lamp
+38	HDL-MGSM.431	SMS Module II
+39	SB-DN-48DMX	48 channels scene controller bus (standard t-shaped tunnel installation  with Ethernet channels,with DMX)
+40	SB-DN-DALI48	48 channels DALI scene controller
+41	SB-DN-DALI48	48 channels DALI scene controller
+42	SB-DN-DALI64	64 channels DALI scene controller
+43	SB-DN-DALI64	64 channels DALI scene controller
+44	HDL-MD0610.4D	6ch 10A Professional Intelligent Dimmer(2013郭晓宁新版修改增加调光曲线去掉消防设置)
+45	HDL-MD1210.4D	12ch 10A Professional Intelligent Dimmer(2013郭晓宁新版修改增加调光曲线去掉消防设置)
+46	SB-DN-6B0-10v	6 channels,0-10V output,dimmable scene controller of fluorescent lamp
+47	SB-DN-48DMX	48 channels scene controller bus (standard t-shaped tunnel installation with DMX)
+48	SB-DLP	DLP Panel with AC Music Clock Floor Heating(20101228加地热)
+49	SB-DLP	 panel with AC 2
+50	SB-WS8	8 keys multi-functional panel (with infrared control)
+51	SB-WS8	8 keys multi-functional panel
+52	SB-WS4	4 keys multi-functional panel (with infrared control)
+53	SB-WS4	4 keys multi-functional panel
+54	SB-WS6	"6 keys scene panel (with infrared control, scene intensity temporary 
+adjustable)"
+55	SB-WS6	6 keys scene panel (without infrared control, with scene intensity temporary adjustable)
+56	SB-WS2	"2 keys scene panel (with infrared control, scene intensity temporary 
+adjustable)"
+57	SB-WS2	"2 keys scene panel (without infrared control, with scene intensity temporary 
+adjustable)"
+58	SB-WS2	2 keys multi-functional panel (with infrared control)
+59	SB-MWH6	Wireless receiver
+60	SB-WS8	8 keys multi-functional panel (with infrared control)
+61	SB-WS4	4 keys multi-functional panel (with infrared control)
+62	SB-MWH6	Wireless receiver
+63	SB-WS4	4 keys multi-functional panel (with infrared control)
+64	SB-WS6	6 keys multi-functional panel (with infrared control)
+65	SB-WS6	5 keys multi-functional panel (with infrared control)
+66	SB-WS4	4 keys multi-functional panel (with infrared control)
+67	SB-WS4	3 keys multi-functional panel (with infrared control)
+68	SB-WS2	2 keys multi-functional panel (with infrared control)
+69	SB-WS1	1 keys multi-functional panel (with infrared control)
+70	SB-2RM-Part	Room partition
+71	SB-WS3	3 keys multi-functional panel (with infrared control)
+72	SB-WS3	2 keys multi-functional panel (with infrared control)
+73	SB-WS1	1 keys multi-functional panel (with infrared control)
+74	SB-WS4	4 keys multi-functional panel (with infrared control)
+75	SB-WS4	4 keys multi-functional panel (with infrared control)
+76	SB-WS6	5 keys multi-functional panel (with infrared control)
+77	SB-WS4	4 keys multi-functional panel (with infrared control)
+78	SB-AC-Edge	 panel with AC controller
+79	SB-DLP	DLP panel with AC and NUVO 2
+80	SB-MS01R	Motion sensor
+81	SB-MS01L	Linear sensor
+82	SB-DLP	panel with AC and clock(20090618 clock function)
+83	SB-AC-Edge	Hotel panel only with AC Voice on/off
+84	SB-DLP	 panel with AC 2
+85	SB-AC-Edge	Hotel panel only with AC Voice on/off
+86	SB-DLP	DLP panel Audio Clock 3(20090618 clock function)
+87	SB-DLP	DLP panel Audio Clock Menu 3(20090618 clock function)
+88	SB-DLP	 panel with AC No. 2
+89	SB-MWH6	Wireless receiver
+90	SB-MS01R	Motion sensor
+91	SB-MS01R	Linear sensor
+92	SB-MS12	12 channels sensor
+93	SB-DRY-4Z	Sensor Input Module
+94	SB-DN-IO6/6	6 channels Input and output Module
+95	SB-CMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+96	SB-MPE.2C	Ambient Intensity Monitor
+97	SB-WMS-PIR	Wide Field Infrared Dual-Technology Motion Sensor
+98	SB-WMS-PIR	Wide Field Infrared Dual-Technology Motion Sensor
+99	SB-CMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+100	SB-MT12IP	12 channels timer (standard t-shaped tunnel installation with Ethernet port)
+101	SB-MT12IP	12 channels timer (standard t-shaped tunnel installation with Ethernet port)
+102	SB-MT01IP	1 channels Event timer
+103	SB-MT12IP	12 channels timer (standard t-shaped tunnel installation with Ethernet port)
+104	SB-MT02IP	2 channels timer (standard t-shaped tunnel installation with Ethernet port)
+105	SB-MT02IP	2 channels timer (standard t-shaped tunnel installation with Ethernet port)
+106	SB-DN-HVAC	Air-conditioning controller
+107	HDL-MAC01.331	Air-conditioning controller
+108	SB-MT12IP	12 channels timer (standard t-shaped tunnel installation with Ethernet port)
+109	SB-DN-HVAC	Air-conditioning controller
+110	SB-MT12IP	12 channels timer (standard t-shaped tunnel installation with Ethernet port)
+111	SB-DN-HVAC	Air-conditioning controller
+112	SB-DN-HVAC	Air-conditioning controller
+113	SB-DRY-32Z	Sensor Input Module
+114	SB-DRY-4Z	Sensor Input Module
+115	SB-DRY-4Z	Sensor Input Module
+116	SB-DN-IO6/6	6 channels Input and output Module
+117	SB-DN-HVAC	Air-conditioning controller
+118	SB-DRY-4Z	Sensor Input Module
+119	SB-DRY-4Z	Sensor Input Module
+120	SB-CMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+121	SB-DRY-4Z	Sensor Input Module
+122	SB-CMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+123	SB-CMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+124	SB-MTS.2C	Temperature sensor
+125	SB-CMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+126	SB-CMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+127	SB-WMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+128	SB-DN-RS232N	HDL-BUS/RS232 converter
+129	SB-WMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+130	SB-WMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+131	SB-WMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+132	SB-WMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+133	SB-CMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+134	SB-MTS04.2	Temperature sensor
+135	SB-DRY-4Z	Sensor Input Module
+136	SB-DRY-4Z	Sensor Input Module
+137	SB-DRY-4Z	Sensor Input Module
+138	SB-WMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+139	SB-CMS-PIR	Roof-Mounting Infrared Dual-Technology Motion Sensor
+140	SB-DRY-12Z	Sensor Input Module
+141	SB-DRY-24Z	Sensor Input Module
+142	SB-DRY-24Z	Sensor Input Module
+149	SB-DLP	DLP Panel with AC Music Clock Floor Heating(20101115加地热)
+150	SB-DN-R1220	12 channels 20A relay
+151	SB-DN-R2420	24 channels 20A relay/ without status feedback
+152	SB-DN-R0610	6ch 10A Intelligent relay module
+153	SB-DN-R0416	4 channels 16A relay
+154	SB-DLP	DLP Panel with AC Music Clock Floor Heating(20101228加地热)
+155	SB-DLP-FH	DLP Panel with  Floor Heating(20110216地热只有基本信息和地热)
+156	SB-DLP	DLP Panel with AC Music Clock Floor Heating(20110811红外新功能替换之前)
+157	SB-DLP	DLP Panel with AC Music Clock Floor Heating(20111219添加兆度读取，在156基础上)
+158	HDL-MPL8.48-FH	DLP Panel with AC Music Clock Floor Heating
+159	SB-DLP	DLP Panel with Music
+160	SB-DLP	DLP Panel with AC Music Clock Floor Heating(20110811红外新功能替换之前)
+161	SB-AC-Edge	Hotel panel only with AC
+162	HDL-MPL8.48-FH	DLP Panel with AC Music Clock Floor Heating
+163	HDL-MRSPA05.231	SPA controller module
+164	HDL-MPDL.48	SPA controller panel
+165	HDL-MPTL14.46	DLP Panel with AC Music Clock Floor Heating
+166	SB-AC-Edge	Hotel panel only with AC Voice on/off
+167	HDL-MPL8.48-FH	DLP Panel with AC Music Clock Floor Heating
+168	HDL-MPTL14.46	DLP Panel with AC Music Clock Floor Heating
+169	SB-AC-Edge	Hotel panel only with AC Voice on/off
+170	HDL-MPTL14.46	DLP Panel with AC Music Clock Floor Heating
+171	HDL-MPTLC43.46	Colorized DLP Panel
+172	HDL-MPTL14.46	DLP Panel with AC Music Clock Floor Heating
+173	HDL-MPTLC43.46	Colorized DLP Panel
+174	HDL-MPTLC43.46	Colorized DLP Panel
+175	HDL-MPTL14.46	DLP Panel with AC Music Clock Floor Heating
+176	HDL-MPL8.48-FH	DLP Panel with AC Music Clock Floor Heating
+177	HDL-MPTLC43.46	Colorized DLP Panel
+178	SB-AC-Edge	Hotel panel only with AC
+179	HDL-MPTLC43.46	Colorized DLP Panel
+200	SB-DN-6RM-Part	Room partition
+201	HDL-LED	LED light
+210	SB-DN-FH06	6ch Floor Heating Module
+211	SB-DN-FH06	6ch Floor Heating Module
+216	SB-WS1-Edge	1 keys multi-functional panel
+217	SB-WS2-Edge	2 keys multi-functional panel
+218	SB-WS3-Edge	3 keys multi-functional panel
+219	SB-WS4-Edge	4 keys multi-functional panel
+220	SB-WS2M	2 keys multi-functional panel
+221	SB-WS3M	3 keys multi-functional panel
+222	SB-WS4M	4 keys multi-functional panel
+223	HDL-MPT01.48	1 keys multi-functional panel
+224	HDL-MPT02.48	2 keys multi-functional panel
+225	HDL-MPT03.48	3 keys multi-functional panel
+226	HDL-MPT04.48	4 keys multi-functional panel
+227	SB-WS3M	3 keys multi-functional panel (with infrared control)
+228	HDL-MBUS01IP.431	1 port switchboard
+229	HDL-MBUS01IP.431	Honeywell BUS Lighting System - Gateway
+230	HBLS-GW	Honeywell BUS Lighting System - Gateway
+231	SB-DN-1IP	1 port switchboard
+232	HDL-MBUS01IP.431	1 port switchboard
+233	SB-DN-1IP	1 port switchboard
+234	HDL-MBUS01IP.431	1 port switchboard
+235	SB-DN-1IP	1 port switchboard
+236	SB-DN-1IP	1 port switchboard
+237	SB-DN-4IP	4 port switchboard
+238	SB-DN-8IP	8 port switchboard
+239	HDL-MH01.48	HDL Smart-HOTEL Custom Door Bell Unit
+240	SB-WS2-Edge	1 keys multi-functional panel (with infrared control)
+241	SB-1S-Bell	HDL Smart-HOTEL Custom Door Bell Unit
+242	SB-WS1B-UK	HDL Smart-HOTEL 1 Button Wall Panel
+243	SB-WS2B-UK	HDL Smart-HOTEL 2 Button Wall Panel
+244	SB-WS4B-UK	HDL Smart-HOTEL 4 Button Wall Panel
+245	SB-WS1M	1 keys multi-functional panel (with infrared control)
+246	SB-WS2M	2 keys multi-functional panel (with infrared control)
+247	SB-WS2M	2 keys multi-functional panel (with infrared control)
+248	SB-WS4M	4 keys multi-functional panel (with infrared control)
+249	SB-WS8M	8 keys multi-functional panel (with infrared control)
+250	SB-WS6M	6 keys multi-functional panel (with infrared control)
+251	SB-WS5M	5 keys multi-functional panel (with infrared control)
+252	SB-WS4M	4 keys multi-functional panel (with infrared control)
+253	SB-WS3M	3 keys multi-functional panel (with infrared control)
+254	SB-WS2M	2 keys multi-functional panel (with infrared control)
+255	SB-WS1M	1 keys multi-functional panel (with infrared control)
+256	SB-WS3M	3 keys multi-functional panel (with infrared control)
+257	SB-WS2M	2 keys multi-functional panel (with infrared control)
+258	SB-WS1M	1 keys multi-functional panel (with infrared control)
+259	SB-WS2M	2 keys multi-functional panel (with infrared control)
+260	SB-WS6M	6 keys multi-functional panel (with infrared control)
+261	SB-WS1M	1 keys multi-functional panel (with infrared control)
+262	SB-WS2M	2 keys multi-functional panel (with infrared control)
+263	SB-WS2M	2 keys multi-functional panel (with infrared control)
+264	SB-WS3M	3 keys multi-functional panel (with infrared control)
+265	SB-WS4M	4 keys multi-functional panel (with infrared control)
+266	SB-WS5M	5 keys multi-functional panel (with infrared control)
+267	SB-WS6M	6 keys multi-functional panel (with infrared control)
+268	SB-WS5M	5 keys multi-functional panel (with infrared control)
+269	SB-WS3M	3 keys multi-functional panel (with infrared control)
+270	SB-WS1-Edge	1 keys multi-functional panel (with infrared control)
+271	SB-WS2-Edge	2 keys multi-functional panel (with infrared control)
+272	SB-WS3-Edge	3 keys multi-functional panel (with infrared control)
+273	SB-WS4-Edge	4 keys multi-functional panel (with infrared control)
+274	SB-FM-Edge	Touch-type radio
+275	SB-WS1M	1 keys multi-functional panel (with infrared control)
+276	SB-WS2M	2 keys multi-functional panel (with infrared control)
+277	SB-WS2M	2 keys multi-functional panel (with infrared control)
+278	SB-WS3M	3 keys multi-functional panel (with infrared control)
+279	SB-WS4M	4 keys multi-functional panel (with infrared control)
+280	SB-WS5M	5 keys multi-functional panel (with infrared control)
+281	SB-WS6M	6 keys multi-functional panel (with infrared control)
+282	SB-WS4M	4 keys multi-functional panel (with infrared control)
+283	SB-WS6M	6 keys multi-functional panel (with infrared control)
+284	SB-WS12M	12 keys multi-functional panel (with infrared control)
+285	SB-MPN50	5*10 keys multi-functional panel
+286	SB-MS104	4 keys panel
+287	SB-WS3M	3 keys multi-functional panel (with infrared control)
+288	SB-WS1M	1 keys multi-functional panel (with infrared control)
+289	SB-WS4M	4 keys multi-functional panel (with infrared control)
+290	SB-WS8M	8 keys multi-functional panel (with infrared control)
+291	SB-MPN90	9*10 keys multi-functional panel
+292	SB-WS2M	2 keys multi-functional panel (with infrared control)
+293	SB-WS2M	2 keys multi-functional panel (with infrared control)
+294	SB-WS3M	3 keys multi-functional panel (with infrared control)
+295	SB-WS4M	4 keys multi-functional panel (with infrared control)
+296	SB-WS5M	5 keys multi-functional panel (with infrared control)
+297	SB-WS6M	6 keys multi-functional panel (with infrared control)
+298	SB-WS4M	4 keys multi-functional panel (with infrared control)
+299	SB-WS8M	8 keys multi-functional panel (with infrared control)
+300	SB-IR-EM	Infrared signal emission,remote receiving module
+301	SB-IR-EM	Infrared signal emission,remote receiving module
+302	SB-IR-EM	Infrared signal emission,remote receiving module
+303	SB-IR-EM	Infrared signal emission,remote receiving module
+304	SB-IR-EM	Infrared signal emission,remote receiving module
+305	SB-CMS-8in1	eight sensors in one
+306	SB-IR-EM	Infrared signal emission,remote receiving module
+307	SB-CMS-9in1	Six Sensors
+308	SB-CMS-12in1	12in1 Multi function Sensor
+309	SB-CMS-8in1	eight sensors in one
+310	SB-CMS-THL	Temp, Humidity & Lux Sensor
+311	SB-CMS-LA	Lux & Air Quality Sensor
+312	SB-CMS-PIR	PIR,Temp & Lux Sensor
+313	SB-IR-EM	Infrared signal emission,remote receiving module
+314	SB-CMS-8in1	eight sensors in one
+315	SB-CMS-8in1	eight sensors in one
+316	SB-CMS-8in1	eight sensors in one
+317	HDL-MSPU05.48	Wall mount Ultrasonic & PIR Sensor
+318	SB-CMS-8in1	eight sensors in one
+319	SB-IR-EM	Infrared signal emission,remote receiving module
+321	SB-CMS-12in1	12in1 Multi function Sensor
+322	SB-CMS-8in1	eight sensors in one
+323	HDL-MSP02.4C	Ceiling Mount PIR Sensor
+324	HDL-MSPU03.4C	Ceiling Mount Ultrasonic Sensor
+325	HDL－MRF16.4C	Wireless receiver
+326	HDL-MSPU03.4C	Ceiling Mount Ultrasonic Sensor
+327	HDL-MSP02.4C	Ceiling Mount PIR Sensor
+328	HDL-MSP07M.4C	PIR,Temp & Lux Sensor
+329	HDL-MSP08M.4C	eight sensors in one
+330	HDL-MSOUT.4W	Ceiling Mount PIR Sensor
+331	HDL-MSW01.4C	Ceiling Mount PIR Sensor
+332	HDL-MSW01.4C	Ceiling Mount PIR Sensor
+351	SB-DRY-4Z	Sensor Input Module
+352	SB-DRY-24Z	Sensor Input Module
+353	SB-DRY-24Z	Sensor Input Module
+354	SB-DRY-4Z	Sensor Input Module
+355	HDL-MSD04.40	Sensor Input Module
+356	SB-DRY-4Z	Sensor Input Module
+357	HDL-MSD08.40	8 Channels Sensor Input Module
+358	SB-DRY-24Z	Sensor Input Module
+359	SB-DRY-28Z	Sensor Input Module
+360	SB-DRY-38Z	Sensor Input Module
+361	HDL-MSD04.40	Sensor Input Module
+362	HDL-MSD08.40	Sensor Input Module
+400	SB-MAIR01	Air-Condition controller
+423	SB-DN-R0416	4 channels 16A relay
+424	SB-DN-R0416	4ch 16A Intelligent  relay module
+425	SB-DN-R0616	6 channels 16A relay
+426	SB-DN-R0616	6ch 16A Intelligent Relay Module
+427	SB-DN-R0820	8 channels 20A Intelligent Relay Module
+428	SB-DN-R0816	8ch 16A Intelligent Relay relay module
+429	SB-DN-R1220	12 channels 20A relay
+430	SB-DN-R1216	12 channels 16A relay
+431	SB-DN-R1205	12 channels 5A relay
+432	SB-DN-R2420	24 channels 20A relay
+433	SB-DN-R0416	4 channels 16A relay
+434	SB-DN-R0420	4 channels 20A relay
+435	SB-DN-R0410	4 channels 10A relay
+436	SB-DN-R0810	8 channels 10A relay
+437	SB-DN-R0425	4ch 25A Intelligent  relay module
+438	SB-DN-R0410-III	4 channels 10A relay
+439	SB-DN-R0810-III	8 channels 10A relay
+440	SB-DN-R1210-III	12 channels 10A relay
+441	SB-DN-R0410-III	4 channels 10A relay  III
+442	SB-DN-R0810-III	8 channels 10A relay III
+443	SB-DN-R1210-III	12 channels 10A relay III
+444	HDL-MR0416.431	4 channels 16A relay  IV
+445	HDL-MR0816.432	8 channels 16A relay IV
+446	HDL-MR1216.433	12 channels 16A relay IV
+447	HDL-MR0410.431	4 channels 10A relay IV
+448	HDL-MR0810.432	8 channels 10A relay IV
+449	HDL-MR1210.433	12 channels 10A relay IV
+450	HDL-MR1616.434	16 channels 16A relay IV
+451	HDL-MR1610.433	16 channels 10A relay IV
+452	伊朗使用设备类型	伊朗使用设备类型lamp
+453	伊朗使用设备类型	伊朗使用设备类型lamp
+455	HDL-DN-MR0610.432	6 channels,0-10V output,dimmable scene controller of fluorescent lamp
+456	SB-DN-R0810-III	8 channels 10A relay
+500	SB-WL-TL7	7" Ture Color Touch Screen
+596	HDL-MH002R16	Hotel room control module
+597	HDL-HMIX13	Hotel room control module
+598	HDL-MD08DSI.232	8ch DSI controller
+599	SB-DN-RMIX12	Hotel room control module
+600	SB-DN-D0602	6ch 2A Intelligent Dimming Module
+601	SB-DN-D0403	4ch 3A Intelligent Dimming Module
+602	SB-DN-D0206	2ch 6A Intelligent Dimming Module
+603	SB-DN-RMIX10	Hotel room control module
+604	SB-DLP	 panel for Hotel
+605	SB-DLP	 panel for Hotel
+606	HDL-MDT0203.233	2ch 3A Trailing Edge Dimming module
+607	HDL-MDT0402.233	4ch 2A Trailing Edge Dimming module
+608	HDL-MDT0601.233	6ch 1A Trailing Edge Dimming module
+609	HDL-MDT0106.233	1ch 6A Trailing Edge Dimming module
+610	SB-DN-D0602	6ch 2A Intelligent Dimming Module
+611	SB-DN-D0403	4ch 3A Intelligent Dimming Module
+612	SB-DN-D0206	2ch 6A Intelligent Dimming Module
+613	SB-DN-DLED0605	6ch 5A Intelligent LED Dimming Module
+614	HDL-MD0206.432	2ch 6A Leading Edge Dimming module
+615	HDL-MD0403.432	4ch 3A Leading Edge Dimming module
+616	HDL-MD0405.433	4ch 5A Leading Edge Dimming module
+617	HDL-MD0602.432	6ch 2A Leading Edge Dimming module
+618	HDL-MDT0106.433	1ch 6A Trailing Edge Dimming module
+619	HDL-MDT0203.433	2ch 3A Trailing Edge Dimming module
+620	HDL-MDT04015.433	4ch 1.5A Trailing Edge Dimming module
+621	HDL-MDT0601.433	6ch 2A Trailing Edge Dimming module
+622	SB-DN-DLED0605	6ch 5A Intelligent LED Dimming Module
+623	SB-DN-DLED0401	4ch 1A Intelligent LED Dimming Module
+624	HDL-MHD02R18	Hotel room control module
+700	SB-DN-2Motor	Curtain controller
+701	SB-DN-2Motor	Curtain controller
+702	SB-DN-2Motor	Curtain controller
+703	SB-DN-2Motor	Curtain controller
+704	SB-DN-2Motor	2Ch Window Curtain controller
+705	SB-DN-2Motor	2Ch Window Curtain controller
+706	SB-DN-2Motor	2Ch Window Curtain controller
+707	SB-DN-2Motor	2Ch Window Curtain controller
+708	HDL-MWM70B.12	roller shutters Curtain controller
+709	HDL-MVSM45B.12	Roller shutters controller
+710	HDL-MWM70B.12	1Ch Window Curtain controller
+711	HDL-MVSM45B.11	Roller shutters controller
+712	HDL-MWM70B.12	1Ch Window Curtain controller
+727	SB-DN-HVAC	Air-conditioning controller
+728	SB-DN-HVAC	Air-conditioning controller
+729	HDL-MIR01F.20	Infrared signal emission,remote receiving module
+730	SB-DN-HVAC	Air-conditioning controller
+731	SB-DN-HVAC	Air-conditioning controller
+732	SB-DN-HVAC	Air-conditioning controller
+733	SB-DN-HVAC	Air-conditioning controller
+734	SB-DN-HVAC	Air-conditioning controller
+735	SB-DN-HVAC	Air-conditioning controller
+736	SB-DN-HVAC	Air-conditioning controller
+737	SB-DN-HVAC	Air-conditioning controller
+738	SB-DN-HVAC	Air-conditioning controller
+739	SB-DN-HVAC	Air-conditioning controller
+740	HDL-MCIP-RF.10	Mesh Gateway
+741	HDL-MCIP-RF.10	Mesh Node
+742	HDL-MCIP-RF02.10	Mesh Node
+800	SB-MDMXI08	8 channels DMX input module
+850	SB-DN-96DMX	96 channels scene controller bus (standard t-shaped tunnelinstallation with DMX)
+851	SB-DN-96DMX	96 channels scene controller bus (standard t-shaped tunnelinstallation with DMX)
+852	SB-DN-96DMX	96 channels scene controller bus (standard t-shaped tunnelinstallation with DMX)
+853	SB-DN-48DMX	48 channels scene controller bus (standard t-shaped tunnelinstallation with DMX)
+854	SB-DN-48DMX	48 channels scene controller bus (standard t-shaped tunnel installation  with Ethernet channels,with DMX)
+894	HDL-MPM06IP.432	Single-phase Digital electric meter
+895	SB-DN-PM1P03	Single-phase Digital electric meter
+896	SB-DN-PM3P01	Three-Phase Four-Wire Digital electric meter
+897	SB-DN-PM3P01	Three-Phase Four-Wire Digital electric meter
+898	SB-DN-PM1P03	Single-phase Digital electric meter
+899	SB-DN-PM5	Digital electric meter
+900	SB-DN-PM5	Digital electric meter
+901	SB-Z-AUDIO	standard Music player devices
+902	SB-Z-AUDIO	standard Music player devices
+903	SB-Z-AUDIO	standard Music player devices(20111220添加播放，暂停，上一首，下一首的目标设置)
+904	SB-Z-AUDIO	standard Music player devices
+905	SB-Z-AUDIO	standard Music player devices
+906	HDL-MzBox.20	standard Music player devices
+907	SB-Z-AUDIO	standard Music player devices
+908	HDL-MMC.01	Media control devices
+909	SB-Z-AUDIO	standard Music player devices
+910	HDL-MzBox.20	standard Music player devices
+911	HDL-MZDN.432	standard Music player devices
+912	SB-Z-AUDIO	standard Music player devices
+913	HDL-MzBox.20	standard Music player devices
+914	HDL-MFTCL.10	standard Music player devices
+915	HDL-MKTVCL.10	standard Music player devices
+950	SB-MHAI	HAI<-->HDL Data Transfer
+951	SB-MCM	CoolMaster<-->HDL Data Transfer
+952	SB-MDK	DAIKIN<-->HDL Data Transfer
+953	SB-MCM.NET	CoolMaster<-->HDL Data Transfer
+1000	SB-DN-EIB	EIB/HDL-BUS converter
+1001	SB-DN-EIB	EIB/HDL-BUS converter
+1005	SB-MBUS-SAMSUNG	SAMSUNG touch screen convert to HDL-BUS
+1006	SB-C-BUS	C-BUS  converter
+1007	SB-DN-RS232N	RS232<->HDL-BUS data transfer
+1008	SB-DN-RS232N	RS232<->HDL-BUS data transfer
+1009	SB-DN-RS232N	RS232<->HDL-BUS data transfer
+1010	SB-IR-Learn	Infrared learner
+1011	SB-DN-EIB	EIB<-->HDL Data Transfer
+1012	SB-DN-EIB	EIB<-->HDL Data Transfer
+1013	SB-DN-RS232IP-PRO	RS232<->HDL-BUS data transfer(Professional version)
+1014	SB-DN-RS232IP-PRO	RS232<->HDL-BUS data transfer(Professional version)
+1015	SB-DN-VideoPlay	DMX show control recorder
+1016	SB-DN-RS232N	RS232<->HDL-BUS data transfer
+1017	SB-DN-RS232N-MC	RS232<->HDL-BUS Media Converter
+1018	SB-DN-RS232IP-PRO	RS232<->HDL-BUS data transfer
+1019	SB-DN-RS232N	RS232<->HDL-BUS data transfer
+1020	SB-DN-RS232N-AC	RS232<->HDL-BUS AC Converter
+1021	SB-DN-HC-DA	HanChang<->HDL-BUS Data Converter
+1022	SB-DN-JACUZZI-DA	JACUZZI<->HDL-BUS Data Converter
+1023	HDL-BN-4096	Bacnet<->HDL-BUS Data Converter
+1024	HDL-MRS232.231	RS232<->HDL-BUS data transfer
+1025	HDL-MR232-M1	ELK-M1<->HDL-BUS data transfer
+1026	HDL-MR232-RCU	RCU<->HDL-BUS data transfer
+1027	SB-DN-RS232IP-PRO	RS232<->HDL-BUS data transfer(Professional version)
+1028	HDL-MRS232.231	RS232<->HDL-BUS Curtain Controller
+1029	SB-DN-JACUZZI-DA	RS232<->HDL-BUS AC Converter
+1030	SB-DN-RS232N-MC	RS232<->HDL-BUS Media Converter
+1031	SB-DN-RS232N-MC	RS232<->HDL-BUS Media Converter
+1032	SB-DN-RS232N-AC	RS232<->HDL-BUS MODBUS Converter
+1033	SB-DN-RS232N	RS232<->HDL-BUS data transfer
+1034	SB-DN-RS232N-AC	RS232<->HDL-BUS AC Converter
+1035	SB-DN-RS232N-AC	RS232<->HDL-BUS AC Converter
+1036	SB-DN-RS232N-AC	RS232<->HDL-BUS AC Converter
+1037	SB-DN-RS232N-AC	RS232<->HDL-BUS AC Converter
+1038	SB-DN-RS232N	RS232<->HDL-BUS data transfer
+1048	SB-DN-UPS	UPS Power
+1049	SB-DN-UPS.231	RS232<->HDL-BUS data transfer(Professional version)
+1050	SB-DN-EIB	EIB<-->HDL Data Transfer
+1051	HDL-DN-EIB	EIB<-->HDL Data Transfer
+1052	HDL-MHIOU.332	Hotel Output and Input module Indonesia
+1053	HDL-MHIOU.432	Hotel Output and Input module Indonesia
+1100	SB-DN-Logic960	Logic timer
+1101	SB-DN-Logic960	Logic timer
+1102	SB-DN-Logic960	Logic timer
+1103	SB-DN-Logic960	Logic timer
+1104	SB-DN-Logic960	Logic timer
+1105	SB-DN-Logic960	Logic timer
+1106	SB-DN-Logic960	Logic timer
+1107	SB-DN-Logic960	Logic timer
+1108	SB-DN-Logic960	Logic timer
+1109	SB-DN-Logic960	Logic timer
+1110	SB-DN-Logic960	Logic timer
+1150	SB-MDCAC	DAIKIN Central AC Module
+1300	HDL-MIR01F.20	Infrared signal emission,remote receiving module
+1500	HDL-MSPU05.48	Wall mount Ultrasonic & PIR Sensor
+1501	HDL-MSPU03.BRF.10	Wireless PIR Sensor
+1800	HDL-MSPU05.48	Wall mount Ultrasonic & PIR Sensor
+2000	SB-MWH6	Wireless receiver
+2001	HDL-MP2B.48	2 keys multi-functional panel
+2002	HDL-MP4B.48	4 keys multi-functional panel
+2003	HDL-MP6B.48	6 keys multi-functional panel
+2004	HDL-MP8B.48	8 keys multi-functional panel
+2005	HDL-MP2K.48	2 keys multi-functional panel
+2006	HDL-MP4K.48	4 keys multi-functional panel
+2007	HDL-MP6K.48	6 keys multi-functional panel
+2008	HDL-MP8K.48	8 keys multi-functional panel
+2009	SB-MWH6	Wireless receiver
+2010	HDL-MP2B.46	2 keys multi-functional panel
+2011	HDL-MP4B.46	4 keys multi-functional panel
+2012	HDL-MP6B.46	6 keys multi-functional panel
+2013	HDL-MP8B.46	8 keys multi-functional panel
+2014	HDL-MP1D.48	1 Button Smart switch Digital Wall Panel
+2015	HDL-MP2D.48	2 Button Smart switch Digital Wall Panel
+2016	HDL-MP3D.48	3 Button Smart switch Digital Wall Panel
+2017	HDL-MP4BD.48	4 Button Smart switch Digital Wall Panel
+2018	HDL-MP5D.48	5 Button Smart switch Digital Wall Panel
+2019	HDL-MP01R.48	1 Button Smart switch Digital Wall Panel
+2020	HDL-MP02R.48	2 Button Smart switch Digital Wall Panel
+2021	HDL-MP04R.48	4 Button Smart switch Digital Wall Panel
+2022	HDL-MPT2.46	2 keys multi-functional panel
+2023	HDL-MPT4.46	4 keys multi-functional panel
+2024	HDL-MPT6.46	6 keys multi-functional panel
+2025	HDL-MP4A.48	2 keys multi-functional panel
+2026	HDL-MP8A.48	4 keys multi-functional panel
+2027	HDL-MP5R.48	5 keys multi-functional panel
+2028	HDL-MP5M.48	5 keys multi-functional panel
+2029	HDL-MPT1.48	1 key Touch Panel with Temperature
+2030	HDL-MPT2.48	2 keys Touch Panel with Temperature
+2031	HDL-MPT3.48	3 keys Touch Panel with Temperature
+2032	HDL-MPT4.48	4 keys Touch Panel with Temperature
+2033	HDL-MP1C.48	1 Button Smart Wall Switch Panel with Temperature
+2034	HDL-MP1C.48	2 Button Smart Wall Switch Panel with Temperature
+2035	HDL-MP3C.48	3 Button Smart Wall Switch Panel with Temperature
+2036	HDL-MP4BC.48	4 Button Smart Wall Switch Panel with Temperature
+2037	HDL-MP5C.48	5 Button Smart Wall Switch Panel with Temperature
+2038	HDL-MP6C.48	6 Button Smart Wall Switch Panel with Temperature
+2039	HDL-MP13C.48	13 Button Smart Wall Switch Panel with Temperature
+2040	HDL-MP01R.48	1 Button Smart switch Digital Wall Panel with Temperature
+2041	HDL-MP02R.48	2 Button Smart switch Digital Wall Panel with Temperature
+2042	HDL-MP03R.48	3 Button Smart switch Digital Wall Panel with Temperature
+2043	HDL-MP04R.48	4 Button Smart switch Digital Wall Panel with Temperature
+2044	HDL-MP2B.48	2 keys multi-functional panel
+2045	HDL-MP4B.48	4 keys multi-functional panel
+2046	HDL-MP6B.48	6 keys multi-functional panel
+2047	HDL-MP8B.48	8 keys multi-functional panel
+2048	HDL-MP2B.48	2 keys multi-functional panel
+2049	HDL-MP4B.48	4 keys multi-functional panel
+2050	HDL-MP6B.48	6 keys multi-functional panel
+2051	HDL-MP8B.48	8 keys multi-functional panel
+2053	HDL-MP6D.48	6 Button Smart switch Digital Wall Panel
+2054	HDL-MP13D.48	13 Button Smart switch Digital Wall Panel
+2055	HDL-MP201.3825	1 key Touch Panel with Temperature
+2056	HDL-MP202.3825	2 keys Touch Panel with Temperature
+2057	HDL-MP204.3825	4 keys Touch Panel with Temperature
+2058	SB-DLP	 panel with AC 2
+2059	SB-WS4M	2 keys multi-functional panel (with infrared control)
+2060	SB-WS8M	4 keys multi-functional panel (with infrared control)
+2061	HDL-MPT6.46	6 keys multi-functional panel
+2062	HDL-MPT1.58	1 Key touch panel with temperature
+2063	HDL-MPT2.58	2 Key touch panel with temperature
+2064	HDL-MPT3.58	3 Key touch panel with temperature
+2065	HDL-MPT4.58	4 Key touch panel with temperature
+3047	SB-DN-SEC250K	Advanced Security Controller
+3048	SB-DN-SEC250K	Advanced Security Controller
+3049	SB-DN-SEC250K	Advanced Security Controller
+3050	SB-WS1m	HOTEL 1 keys multi-functional panel
+3051	SB-WS2m	HOTEL 2 keys multi-functional panel
+3052	SB-WS3m	HOTEL 3 keys multi-functional panel
+3053	SB-WS4m	HOTEL 4 keys multi-functional panel
+3054	SB-3S-Bell	Digital doorbell
+3055	SB-DN-SEC250K	Security Module
+3056	SB-3S-Bell	Hotel Digital doorbell(RF)
+3057	SB-CRD-MSTR-Edge	Gold Metal RF Card Reader I
+3058	SB-CRD-MSTR	Glass IC Card Reader I
+3059	SB-3S-Bell	Digital doorbell
+3060	SB-CRD-MSTR	Hotel Intelligence Card Reader
+3061	SB-3S-Bell-XS	Hotel Digital doorbell(RF)
+3062	SB-RF-MSTR	Glass RF Card Reader I
+3063	SB-RF-MSTR	Glass Photoelectric Card Reader III
+3064	SB-RF-MSTR-Edge	Gold Metal RF Card Reader II
+3065	SB-RF-MSTR	Glass RF Card Reader II
+3066	SB-RF-MSTR-Edge	Gold Metal Photoelectric Card Reader III
+3067	SB-3S-Bell	Digital doorbell
+3068	SB-RF-MSTR	Plastic RF Card Reader
+3069	SB-RF-MSTR	Plastic RF Card Reader(Special Version)
+3070	SB-3S-Bell-XS	Hotel Digital doorbell(RF)
+3071	SB-3S-Bell	Digital doorbell
+3072	HDL-MPTB01RF.48	Hotel Digital doorbell(RF)
+3073	SB-3S-Bell-XS	Hotel Digital doorbell(RF)
+3074	SB-3S-Bell-XS	Hotel Digital doorbell(RF)
+3075	HDL-MHB2.3825	Hotel Digital doorbell(RF)
+3076	HDL-MHIC.3825	Plastic RF Card Reader
+3077	SB-3S-Bell-XS	Hotel Digital doorbell(RF)
+3078	HDL-MHIC.K3.3825	Plastic RF Card Reader
+3200	HDL-MDS	Door Station
+3201	HDL-MDS	Door Station
+3500	HDL-MHRCU.433	Hotel Room Control Host Module
+3501	HDL-MHRCU.433	Room Control Host Module
+3502	HDL-MHRCU.433	Room Control Host Module
+3503	HDL-MHRCU.433	Room Control Host Module
+4000	HDL-MGSM.431	SMS Module II
+4500	HDL-MBR06.431	6 Port Bus Routing module
+5000	HDL-MPL8-RF.18	DLP Panel with AC Music Clock Floor Heating
+5001	HDL-MPL8-RF.18	DLP Panel with AC Music Clock Floor Heating
+5002	HDL-MPL8-RF.18	DLP Panel with AC Music Clock Floor Heating
+5003	HDL-MPL8-RF.18	DLP Panel with AC Music Clock Floor Heating
+5030	HDL-MP2B-RF.18	2 key  wireless multifunction  panel generation 1
+5031	HDL-MP4B-RF.18	4 key  wireless multifunction  panel generation 1
+5032	HDL-MP6B-RF.18	6 key  wireless multifunction panel generation 1
+5033	HDL-MP8B-RF.18	8 key  wireless multifunction panel generation 1
+5034	HDL-MP01R-RF.18	1 key  wireless multifunction round button panel
+5035	HDL-MP02R-RF.18	2 key  wireless multifunction round button panel
+5036	HDL-MP03R-RF.18	3 key  wireless multifunction round button panel
+5037	HDL-MP04R-RF.18	4 key  wireless multifunction round button panel
+5038	HDL-MPT1-RF.18	1 key  wireless multifunction glass touch panel
+5039	HDL-MPT2-RF.18	2 key  wireless multifunction glass touch panel
+5040	HDL-MPT3-RF.18	3 key  wireless multifunction glass touch panel
+5041	HDL-MPT4-RF.18	4 key  wireless multifunction glass touch panel
+5042	HDL-MP2B-RF.18	2 key  wireless multifunction panel generation 1
+5043	HDL-MP4B-RF.18	4 key  wireless multifunction  panel generation 1
+5044	HDL-MP6B-RF.18	6 key  wireless multifunction  panel generation 1
+5045	HDL-MP8B-RF.18	8 key  wireless multifunction panel generation 1
+5046	HDL-MP01R-RF.18	1 key  wireless multifunction round button panel
+5047	HDL-MP02R-RF.18	2 key  wireless multifunction round button panel
+5048	HDL-MP03R-RF.18	3 key  wireless multifunction round button panel
+5049	HDL-MP04R-RF.18	4 key  wireless multifunction round button panel
+5050	HDL-MPT1-RF.18	1 key  wireless multifunction glass touch panel
+5051	HDL-MPT2-RF.18	2 key  wireless multifunction glass touch panel
+5052	HDL-MPT3-RF.18	3 key  wireless multifunction glass touch panel
+5053	HDL-MPT4-RF.18	4 key  wireless multifunction glass touch panel
+5054	HDL-MP04R-RF.18	4 key  wireless multifunction round button panel
+5055	HDL-MPT4-RF.18	4 key  wireless multifunction glass touch panel
+5056	HDL-MPT6-RF.18	4 key  wireless multifunction glass touch panel
+5057	HDL-MPT2-RF.28	2 key  wireless multifunction glass touch panel
+5058	HDL-MPT4-RF.28	4 key  wireless multifunction glass touch panel
+5059	HDL-MPT4-RF.28	4 key  wireless multifunction glass touch panel
+5060	HDL-MPT6-RF.28	9 key  wireless multifunction glass touch panel
+5300	HDL-MWM70-RF.18	1Ch Window Curtain controller
+5301	HDL-MVSM45B.-RF.12	Wireless roller shutters controller
+5302	HDL-MWM70-RF.18	1Ch Window Curtain controller
+5500	HDL-MPR01-RF.18	1 channels 16A  relay driver
+5501	HDL-MPR02-RF.18	2 channels 8A  relay driver
+5700	HDL-MPD01-RF.18	1ch 5A  Dimmer
+5701	HDL-MPD01-RF.18	1ch 5A  Dimmer
+5900	HDL-MPS04-RF.18	Sensor Input Module
+6100	HDL-MPS04-RF.18	Sensor Input Module
+6101	HDL-MPS04-RF.18	Sensor Input Module
+6102	HDL-MPS04-RF.18	Sensor Input Module
+9000	Cameral	Cameral
+9001	NVR	NVR
+60000	Server	Server
+65498	Blooder	
+65499	Blooder	
+65500	Modbus	
+65501	SB-DiiVA	DiiVA MXM controller
+65532		TouchLife
+65534		PC
