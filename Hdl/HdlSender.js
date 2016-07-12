@@ -1,4 +1,4 @@
-// HdlSender modul
+console.log('HdlSender module started');
 var protocol = require('./HdlProtocol.js');
 
 // TODO: may be replace in other modules
@@ -14,6 +14,7 @@ function HdlSender(){
 
 HdlSender.prototype.send = function(command, targetSubnet, targetId){
 	var contents = Array.prototype.slice.call(arguments, 3);
+	console.log(arguments);
 };
 
-module.exports = HdlSender;
+module.exports = new HdlSender();

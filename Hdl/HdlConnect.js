@@ -1,5 +1,5 @@
 console.log('HdlConnect module started');
-var send = require('./HdlSender.js');
+var send = require('./HdlSender.js').send;
 
 function HdlConnect (hostIp, port) {
 	this.ip = hostIp;
