@@ -1,5 +1,5 @@
 // HdlSender modul
-var protocol = require('HdlSender.js');
+var protocol = require('./HdlProtocol.js');
 
 // TODO: may be replace in other modules
 var crc16 = require('crc').crc16xmodem;
